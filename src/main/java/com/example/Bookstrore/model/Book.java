@@ -14,7 +14,6 @@ public class Book {
 	@JoinColumn(name = "cid")
 	private Category category;
 	
-
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	

@@ -28,11 +28,7 @@ public class BookstroreApplication {
 			crepository.save(b);
 			crepository.save(c);
 			
-			Book i = new Book("title", "author", 1997, 1235, 23.4, a);
-			Book j = new Book("title2", "author2", 2020, 4325, 45.6, b);
-				
-			brepository.save(i);
-			brepository.save(j);
+			
 			
 		};
 	}
