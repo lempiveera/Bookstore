@@ -31,7 +31,6 @@ public class BookController {
 		return "booklist";
 	}
 	
-	
 	@RequestMapping(value = "add")
 	public String addBook(Model model) {
 		model.addAttribute("book", new Book());
