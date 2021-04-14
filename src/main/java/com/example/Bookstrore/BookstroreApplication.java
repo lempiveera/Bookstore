@@ -42,6 +42,7 @@ public class BookstroreApplication {
 
 			urepository.save(user1);
 			urepository.save(user2);
+			urepository.deleteAll();
 			
 		};
 	}
